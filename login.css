@@ -1,0 +1,59 @@
+body{
+  margin:10px;
+  padding: 10px;
+  font-family: sans-serif;
+  background: url(blue2.jpg) no-repeat;
+
+  background-size: cover;
+}
+.login-box{
+  width: 280px;
+
+
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  float:left;
+  font-size: 30px;
+  border-bottom: 4px solid lightpink;
+  margin-bottom: 40px;
+  padding: 13px 0;
+}
+.textbox{
+  width:100%;
+  overflow: hidden;
+  font-size: 20px ;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid lightblue;
+}
+.pwd{
+  border:0 0 0 3px;
+  border-color: blue;
+  text-decoration: none;
+  font-size: 12px;
+  color: lightgreen;
+}
+.textbox input{
+  border:none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  float :left;
+  margin: 0 10px ;
+}
+.btn{
+  width:70%;
+  background:none;
+  border: 2px solid lightpink;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px 30px;
+}

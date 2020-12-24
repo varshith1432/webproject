@@ -1,0 +1,50 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: url(res.jpg) no-repeat;
+  background-size: cover;
+}
+.reset-box{
+  width: 280px;
+
+
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.reset-box h2{
+  float:left;
+  font-size: 30px;
+  border-bottom: 3px solid lightpink;
+  margin-bottom: 30px;
+  padding: 12px 0;
+}
+.textbox{
+  width:100%;
+  overflow: hidden;
+  font-size: 20px ;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid lightblue;
+}
+.textbox input{
+  border:none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  float :left;
+  margin: 0 10px ;
+}
+.btn{
+  width:70%;
+  background:none;
+  border: 2px solid lightpink;
+  color: pink;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px 30px;
+}

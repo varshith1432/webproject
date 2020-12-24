@@ -1,0 +1,83 @@
+body{
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  background: url(reg.jpg) no-repeat;
+  background-size: cover;
+
+}
+.register-box{
+  width: 280px;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.gender{
+  display: flex;
+  align-items:left;
+  justify-content: flex-start;
+}
+.register-box h1{
+  float:left;
+  font-size: 30px;
+  border-bottom: 4px solid lightgreen;
+  margin-bottom: 40px;
+  padding: 13px 0;
+}
+.textbox{
+  width:100%;
+  overflow: hidden;
+  font-size: 20px ;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid lightblue;
+}
+#age{
+
+    width:40%;
+    overflow: hidden;
+    font-size: 20px ;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid lightblue;
+}
+
+#age input{
+  border:none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  float :left;
+  margin: 0 10px ;
+}
+
+
+
+
+
+.textbox input{
+  border:none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  float :left;
+  margin: 0 10px ;
+}
+.btn{
+  width:70%;
+  background: none;
+  border-radius: 4px;
+  border: 2px solid lightpink;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 12px 30px;
+}

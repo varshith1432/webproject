@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    <div class="register-box">
+      <h1>Register</h1>
+      <form  action="insert.php" method="POST">
+
+
+      <div class="textbox">
+        <input type="text" placeholder="Username" name="user"value="" required>
+      </div>
+
+
+   <div id="age">
+          <input type="text" width=40px placeholder="Age" name="age" value=""required>
+
+      </div>
+
+<div class="g1">
+  <label for="">Gender :<br> </label><br>
+</div>
+      <div class="gender">
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="Email" name="mail"required value="">
+      </div>
+      <div class="textbox">
+        <input type="password" placeholder="Enter Password" name="pass"  required value="">
+      </div>
+      <div class="textbox">
+        <input type="password" placeholder="Confirm Password" name="pass1" required value="">
+      </div>
+      <div >
+        <input class="btn" type="submit"  value="Register">
+      </div>
+
+
+      </form>
+    </div>
+  </body>
+</html>
